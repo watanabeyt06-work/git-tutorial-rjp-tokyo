@@ -1,7 +1,7 @@
 public class HelloWorld {
     public static void main(String[] args) {
         if (args.length < 1) {
-            System.out.println("引数がありません。en または cn を指定してください。");
+            System.out.println("引数がありません。文字コードのen または cn を指定してください。");
             return;
         }
 
