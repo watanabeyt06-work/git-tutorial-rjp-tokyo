@@ -11,8 +11,10 @@ public class HelloWorld {
             System.out.println("ハロー世界");
         } else if (language.equals("en")) {
             System.out.println("Hello World");
+        } else if (language.equals("cn")) {
+            System.out.println("你好，世界");
         } else {
-            System.out.println("不明な言語です。ja または en を指定してください。");
+            System.out.println("不明な言語です。ja、en、またはcnを指定してください。");
         }
     }
 }
