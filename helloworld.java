@@ -11,6 +11,8 @@ public class HelloWorld {
             System.out.println("Hello World");
         } else if (language.equals("cn")) {
             System.out.println("你好，世界");
+        } else if (language.equals("fr")) {
+            System.out.println("Bonjour le monde");
         } else {
             System.out.println("不明な言語です。en、またはcnを指定してください。");
         }
